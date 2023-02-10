@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puissance 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Puissance 4</h1>
+
+        <div id="menu">            
+                   
+            <h2 id="tour">Tour du joueur 1</h2>        
+
+           
+            <div class="alert d-none" role="alert"></div>
+
+            <div>
+                <input type="checkbox" id="IA" onchange="startIA()">
+                <label for="">Intelligence Artificielle</label>
+            </div>
+
+        </div>
+        
+        
+        
+        <div class="row">
+            <div id="j1">
+                <p>Joueur 1</p>
+                <img src="./images/StrollingDoodle.png" alt="image joueur 1">
+                <img src='./images/cercle-plein-rouge.png'/> 
+                <p id="pointJ1">0</p>
+            </div>
+            <div id="jeu"></div>
+            <div id="j2">
+                <p>Joueur 2</p>
+                <img id="imageJoueur2" src="./images/MeditatingDoodle.png" alt="image joueur 2">
+                <img src="./images/cercle-plein-bleu.png" />
+                <p id="pointJ2">0</p>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+
+
+    <script src="toolbox.js"></script>
+    <script src="IA.js"></script>
+    <script src="jeu.js"></script>
+    <script src="main.js"></script>
+
+
+    <script src=""></script>
+</body>
+</html>
